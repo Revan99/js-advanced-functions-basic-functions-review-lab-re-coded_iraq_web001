@@ -1,5 +1,5 @@
 // Your code here
-<<<<<<< HEAD
+
 let Calculator = {
   add:function(){
     return 1+3;
