@@ -1,4 +1,5 @@
 // Your code here
+<<<<<<< HEAD
 let Calculator = {
   add:function(){
     return 1+3;
@@ -36,3 +37,18 @@ function actionApplyer(start = 0, arr){
   else return 0
   
 }
+=======
+function saturdayFun(something = "roller-skate"){
+  console.log(`This Saturday, I want to ${something}!`);
+}
+function mondayWork(something){
+  return `This Monday, I will ${something}`
+}
+function wrapAdjective(par = "*"){
+  return function(firstpar = "special"){
+    return `You are ${firstpar}`
+  }
+}
+let encouragingPromptFunction = wrapAdjective("!!!")
+wrapAdjective("%")("a dedicated programmer")
+>>>>>>> 38c784a9db372351cae3b1df7ac8a84105a66aa1
